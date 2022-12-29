@@ -7,8 +7,7 @@ fileSystem.readdirSync(__dirname + "/lang/").forEach(file => {
     if(path.extname(file) !== ".json") {
         return;
     }
-    let name = path.basename(file, ".json");
-    lang[name] = require(__dirname + "/lang/" + file);
+    lang[path.basename(file, ".json")] = require(__dirname + "/lang/" + file);
 });
 
 module.exports = lang;
