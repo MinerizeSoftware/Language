@@ -1,0 +1,15 @@
+{
+  "name": "minerize-language",
+  "version": "1.0.0",
+  "description": "Language for a Minerize Software.",
+  "main": "src/Language.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "JblusItsMe",
+  "keywords": [
+    "minerize",
+    "minerize language"
+  ],
+  "license": "MIT"
+}
